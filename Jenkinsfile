@@ -16,3 +16,4 @@ node('vm01'){
    sh 'docker run -d -p 8080:8080  nippy/myapp.$BUILD_NUMBER'
   }
   }
+
